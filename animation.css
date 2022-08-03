@@ -41,6 +41,7 @@ section
   overflow: hidden;
  
   -webkit-animation: fadein 5s linear 1 alternate forwards;
+  animation: fadein 5s linear 1 alternate forwards;
   /* animation: fadein 6s ease-in-out 7s 1 linear; */
   animation-delay: 7s;
 
@@ -52,6 +53,10 @@ section
 @-webkit-keyframes fadein{
     from { opacity: 1;  }
     to { opacity: 0; }
+}
+@keyframes fadein{
+  from { opacity: 1;  }
+  to { opacity: 0; }
 }
 
 .App-log-head

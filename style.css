@@ -75,7 +75,7 @@
 
 @media only screen and (max-device-width : 800px) {
 
-.App-logo
+.App-logo,.App-log-head
 {
   height: 17vmin;
 }
