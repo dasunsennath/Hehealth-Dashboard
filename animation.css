@@ -171,11 +171,11 @@ section
   /* .text-animation-power.first {
     opacity: 0;
     /* animation-delay: 1s; */
-  }
-  .text-animation-power.second {
+  
+  /* .text-animation-power.second {
     opacity: 0;
     animation-delay: 2s;
-  } */
+  }  */
 
 
   @media only screen and (max-device-width : 800px) {
@@ -183,10 +183,8 @@ section
     .App-log-head
     {
       top: -10px;
+      height: 17vmin;
     }
 
-    .App-log-head
-    {
-      height: 15vmin;
-    }
+    
   }
