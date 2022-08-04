@@ -63,17 +63,49 @@
 
 .graph-box
 {
-  height: 45vw; 
+  height: 350px; 
   overflow-y: hidden
 }
 
 .world-box
 {
-  height: 760px; 
+  height: 600px; 
   overflow-y: hidden
 }
 
-@media only screen and (max-device-width : 800px) {
+
+@media only screen and (max-device-width : 750px) {
+
+  .App-logo
+  {
+    height: 17vmin;
+  }
+  
+  .world-box
+  {
+    height: 80vw; 
+    overflow-y: hidden
+  }
+  
+  
+    .graph-box
+  {
+    height: 100vw; 
+    overflow-y: hidden
+  }
+  
+  .scroll
+  {
+    width: 2.5rem;
+    height: 2.5rem;
+    right:25px;
+    bottom:20px;
+  }
+
+}
+
+
+@media only screen and (min-device-width : 800px) {
 
 .App-logo
 {
@@ -82,14 +114,14 @@
 
 .world-box
 {
-  height: 80vw; 
+  height: 78vw; 
   overflow-y: hidden
 }
 
 
   .graph-box
 {
-  height: 100vw; 
+  height: 420px; 
   overflow-y: hidden
 }
 
@@ -115,6 +147,12 @@
   overflow-y: hidden
 }
 
+.graph-box
+{
+  height: 400px; 
+  overflow-y: hidden
+}
+
 }
 
 @media only screen and (min-device-width : 1400px) {
@@ -122,6 +160,12 @@
   .world-box
 {
   height:  760px; 
+  overflow-y: hidden
+}
+
+.graph-box
+{
+  height: 420px; 
   overflow-y: hidden
 }
 
@@ -137,7 +181,7 @@
   }
   .graph-box
 {
-  height: 42vw; 
+  height: 400px; 
   overflow-y: hidden
 }
 }
@@ -152,7 +196,7 @@
   }
   .graph-box
 {
-  height: 30vw; 
+  height:  450px; 
   overflow-y: hidden
 }
 } 

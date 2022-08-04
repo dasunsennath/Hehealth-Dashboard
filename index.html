@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,7 +14,6 @@
     <link rel="stylesheet" href="animation.css" />
   </head>
   <body>
-    
     <section class="section">
       <div class="animation">
         <div class="row align-items-center">
@@ -29,34 +27,37 @@
         </div>
 
         <div class="row align-items-center mt-5">
-          <div class="col-lg-12 col-12 text-center mt-5  app-load">
-              <!-- <p class="fw-bolder fs-3 mt-5 text-animation-power first">Powerd by</p> -->
-              <img src="Logo/logo.png" class="App-log-head an-image  mt-5 text-animation-power first " alt="logo" />
+          <div class="col-lg-12 col-12 text-center mt-5 app-load">
+            <!-- <p class="fw-bolder fs-3 mt-5 text-animation-power first">Powerd by</p> -->
+            <img
+              src="Logo/logo.png"
+              class="App-log-head an-image mt-5 text-animation-power first"
+              alt="logo"
+            />
           </div>
         </div>
       </div>
     </section>
 
     <div class="App-header">
-        <!-- back to top button  -->
-        <div>
-        <a href="#" id="scroll" class="scroll " style="display: none"><span></span></a>
+      <!-- back to top button  -->
+      <div>
+        <a href="#" id="scroll" class="scroll" style="display: none"
+          ><span></span
+        ></a>
       </div>
-
-    
 
       <div class="container-xl">
         <div class="row align-items-center">
           <div class="col-lg-12 col-12 text-center">
             <img src="Logo/logo.png" class="App-logo mt-5" alt="logo" />
-            <p class="fw-bolder fs-3 mb-5 text-pox">Monkey Pox Cases Worldwide</p>
+            <p class="fw-bolder fs-3 mb-5 text-pox">
+              Monkey Pox Cases Worldwide
+            </p>
           </div>
         </div>
-      
-        <div
-          id="reportContainer"
-          class="world-box shadow-row"
-        >
+
+        <div id="reportContainer" class="world-box shadow-row">
           <iframe
             id="reportFrame"
             frameborder="0"
@@ -68,15 +69,11 @@
           </iframe>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-12 mt-5">
-            <p class="fw-bolder mb-5"> Total cases (Country)</p>
+        <div class="row align-items-center justify-content-md-center">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder mb-5">Total cases (Country)</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -89,12 +86,9 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Monkeypox Cases Trend</p>
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -106,16 +100,11 @@
               </iframe>
             </div>
           </div>
-        </div>
+          <!-- change graph -->
 
-        <div class="row">
-          <div class="col-lg-6 col-12 mt-5">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Total cases (city)</p>
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -128,13 +117,11 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-12 mt-5">
+          <!-- chnage begin -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Travel History (Gender)</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -146,17 +133,13 @@
               </iframe>
             </div>
           </div>
-        </div>
 
-        <div class="row ">
-         
-          <div class="col-lg-6 col-12 mt-5">
+          <!-- chnage end -->
+
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Hospitalized Cases (Country)</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -169,13 +152,10 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Travel History (Country)</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -187,17 +167,11 @@
               </iframe>
             </div>
           </div>
-        </div>
 
-        <div class="row ">
-          <div class="col-lg-6 col-12 mt-5">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Symptom wise Occurrence</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -210,14 +184,10 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-12 mt-5">
-
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Common Symptoms</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -229,16 +199,12 @@
               </iframe>
             </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-lg-6 col-12 mt-5">
+          <!-- chnage begine -->
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Confirmation Method</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -250,14 +216,12 @@
               </iframe>
             </div>
           </div>
+          <!-- chnage end -->
 
-          <div class="col-lg-6 col-12 mt-5">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
             <p class="fw-bolder mb-5">Confirmed Cases (Travel History)</p>
 
-            <div
-              id="reportContainer"
-              class="graph-box shadow-row"
-            >
+            <div id="reportContainer" class="graph-box shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
@@ -270,6 +234,11 @@
             </div>
           </div>
         </div>
+
+        <!-- <div class="row align-items-center justify-content-center">
+       
+         
+        </div> -->
       </div>
     </div>
 
@@ -281,12 +250,12 @@
     ></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-    integrity=
-"sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" 
-    crossorigin="anonymous">
-</script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
     <script src="handle.js"></script>
   </body>
 </html>
