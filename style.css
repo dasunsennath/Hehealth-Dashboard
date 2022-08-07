@@ -73,6 +73,12 @@
   overflow-y: hidden
 }
 
+.graph-box-xl
+{
+  height: 650px; 
+  overflow-y: hidden
+}
+
 
 @media only screen and (max-device-width : 750px) {
 
@@ -87,7 +93,11 @@
     overflow-y: hidden
   }
   
-  
+  .graph-box-xl
+{
+  height: 100vw; 
+  overflow-y: hidden
+}
     .graph-box
   {
     height: 100vw; 
@@ -118,10 +128,20 @@
   overflow-y: hidden
 }
 
+.graph-box-xl
+{
+  height: 100vw; 
+  overflow-y: hidden
+}
 
+.graph-box-xl
+{
+  height: 460px; 
+  overflow-y: hidden
+}
   .graph-box
 {
-  height: 420px; 
+  height: 460px; 
   overflow-y: hidden
 }
 
@@ -139,7 +159,7 @@
 
 
 
-@media only screen and (min-device-width : 1100px) {
+@media only screen and (min-device-width : 1050px) {
 
   .world-box
 {
@@ -150,6 +170,12 @@
 .graph-box
 {
   height: 400px; 
+  overflow-y: hidden
+}
+
+.graph-box-xl
+{
+  height: 680px; 
   overflow-y: hidden
 }
 
