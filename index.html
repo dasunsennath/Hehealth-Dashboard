@@ -51,28 +51,31 @@
         <div class="row align-items-center">
           <div class="col-lg-12 col-12 text-center">
             <img src="Logo/logo.png" class="App-logo mt-5" alt="logo" />
-            <p class="fw-bolder fs-3 mb-5 text-pox">
-              Monkey Pox Cases Worldwide
+            <p class="fw-bolder fs-1 mb-5 text-pox">
+              <span class="black">Monkeypox</span>
+              <span class="blue">Dashboard</span>
             </p>
           </div>
         </div>
 
-        <div id="reportContainer" class="world-box shadow-row">
-          <iframe
-            id="reportFrame"
-            frameborder="0"
-            seamless="seamless"
-            class="viewer pbi-frame"
-            style="width: 100%; height: 840px"
-            src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectiondc3e6da6075dcd743bf2"
-          >
-          </iframe>
-        </div>
-
         <div class="row align-items-center justify-content-md-center">
-
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Cumulative Cases (confirmed)</p>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 ">
+            <div id="reportContainer" class="world-box shadow-row">
+              <iframe
+                id="reportFrame"
+                frameborder="0"
+                seamless="seamless"
+                class="viewer pbi-frame"
+                style="width: 100%; height: 825px"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-md-center">
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder ">Cumulative Cases</p>
 
             <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
@@ -81,16 +84,14 @@
                 seamless="seamless"
                 class="viewer pbi-frame"
                 style="width: 100%; height: 830px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection870550d12a9c3d4441bc"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection870550d12a9c3d4441bc"
               >
               </iframe>
             </div>
           </div>
 
-        
-
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Monkeypox Cases Trend</p>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder">Cases Trend (Daily)</p>
             <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
                 id="reportFrame"
@@ -98,170 +99,78 @@
                 seamless="seamless"
                 class="viewer pbi-frame"
                 style="width: 100%; height: 830px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection1cd34a5a669df6054528"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection1cd34a5a669df6054528"
               >
               </iframe>
             </div>
           </div>
 
-            <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Total Cases Top 10 (Country)</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder">Total Cases Top 10 (Country)</p>
+            <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
                 seamless="seamless"
                 class="viewer pbi-frame"
                 style="width: 100%; height: 830px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionaf906e1d2df38598cd4c"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionaf906e1d2df38598cd4c"
               >
               </iframe>
             </div>
           </div>
           <!-- change graph -->
 
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Total Cases Top 10 (city)</p>
-            <div id="reportContainer" class="graph-box shadow-row">
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder">Travel History</p>
+            <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
                 seamless="seamless"
                 class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection8b0478047672936cfbe3"
+                style="width: 100%; height: 830px"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectioncf40cb3c1f6b13786ae0"
               >
               </iframe>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5"> Travel History (GT% Cases)</p>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder">Travel History (Gender)</p>
 
-            <div id="reportContainer" class="graph-box shadow-row">
+            <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
                 seamless="seamless"
                 class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectioncf40cb3c1f6b13786ae0"
+                style="width: 100%; height: 830px"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionf42416dffccebe23a1db"
               >
               </iframe>
             </div>
           </div>
 
-          
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Travel History (Country)</p>
+          <div class="col-lg-5 col-md-6 col-sm-12 col-12 mt-5">
+            <p class="fw-bolder">Travel History (Country)</p>
 
-            <div id="reportContainer" class="graph-box shadow-row">
+            <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
                 id="reportFrame"
                 frameborder="0"
                 seamless="seamless"
                 class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection6017cb25b044c113bde9"
+                style="width: 100%; height: 830px"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection6017cb25b044c113bde9"
               >
               </iframe>
             </div>
           </div>
 
           <!-- chnage begin -->
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Travel History (Gender)</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionf42416dffccebe23a1db"
-              >
-              </iframe>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5"> Gender (GT% Cases)</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection94bd5eb117204f4ec64a"
-              >
-              </iframe>
-            </div>
-          </div>
-          <!-- chnage end -->
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Symptom wise Occurrence</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc474ddc06d3ec30f7ea4"
-              >
-              </iframe>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Common Symptoms</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionb29297e04e8587867bfb"
-              >
-              </iframe>
-            </div>
-          </div>
-
-
-          <div class="col-lg-4 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Confirmation Method</p>
-
-            <div id="reportContainer" class="graph-box shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection45783cf8636dccd9cbc9"
-              >
-              </iframe>
-            </div>
-          </div>
-
-
-        
-          <!-- chnage begine -->
-       
-          <!-- chnage end -->
-
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Dead Cases</p>
+          <div class="col-lg-5 col-md-6 col-sm-12 mt-5">
+            <p class="fw-bolder">Symptom Occurrence</p>
 
             <div id="reportContainer" class="graph-box-xl shadow-row">
               <iframe
@@ -269,36 +178,13 @@
                 frameborder="0"
                 seamless="seamless"
                 class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection8062b0db7c409d5b2d78"
+                style="width: 100%; height: 830px"
+                src="https://app.powerbi.com/view?r=eyJrIjoiZGQxNzM3YWEtOGNkNy00NzJjLWJmNjYtMTlkOTI0MjBlODdjIiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSectionc474ddc06d3ec30f7ea4"
               >
               </iframe>
             </div>
           </div>
-
-
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
-            <p class="fw-bolder mb-5">Summary</p>
-  
-            <div id="reportContainer" class="graph-box-xl shadow-row">
-              <iframe
-                id="reportFrame"
-                frameborder="0"
-                seamless="seamless"
-                class="viewer pbi-frame"
-                style="width: 100%; height: 840px"
-                src="https://app.powerbi.com/view?r=eyJrIjoiMmY2MjExY2UtNjEyMC00NmNhLWEwYmUtZjkwYWNlNmM1ZTU5IiwidCI6IjZmNzZlOWUyLTY5NzUtNDA2YS1hYjcxLWQ3NjAyOTQyODNjMSIsImMiOjEwfQ%3D%3D&pageName=ReportSection660a5da49f616127f346"
-              >
-              </iframe>
-            </div>
-          </div>
-
-
         </div>
-
-
-       
-
 
         <!-- <div class="row align-items-center justify-content-center">
        

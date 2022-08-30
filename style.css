@@ -1,5 +1,7 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+  font-family: "Open Sans", sans-serif;
+}
 
 
 
@@ -53,6 +55,14 @@
 }
 
 
+.black
+{
+  color: rgb(33,44,63);
+}
+.blue
+{
+  color: #3C67E6
+}
 
 .shadow-row
 {
@@ -75,7 +85,7 @@
 
 .graph-box-xl
 {
-  height: 650px; 
+  height: 370px; 
   overflow-y: hidden
 }
 
@@ -95,7 +105,7 @@
   
   .graph-box-xl
 {
-  height: 100vw; 
+  height: 95vw; 
   overflow-y: hidden
 }
     .graph-box
@@ -136,7 +146,7 @@
 
 .graph-box-xl
 {
-  height: 460px; 
+  height: 430px; 
   overflow-y: hidden
 }
   .graph-box
@@ -175,7 +185,7 @@
 
 .graph-box-xl
 {
-  height: 680px; 
+  height: 450px; 
   overflow-y: hidden
 }
 
@@ -192,6 +202,11 @@
 .graph-box
 {
   height: 420px; 
+  overflow-y: hidden
+}
+.graph-box-xl
+{
+  height: 520px; 
   overflow-y: hidden
 }
 
